@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"  # Si tu utilises Maven
+    directory: "/"               # Répertoire racine du projet
+    schedule:
+      interval: "weekly"         # Vérifications hebdomadaires
+  - package-ecosystem: "npm"     # Si tu utilises npm
+    directory: "/"               # Répertoire racine
+    schedule:
+      interval: "weekly"         # Vérifications hebdomadaires
